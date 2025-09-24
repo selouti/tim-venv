@@ -19,9 +19,9 @@ if __name__ == '__main__':
         binary_file.close()
 
     # print less
-    print(msgParsed.TOT)
-    for record in msgParsed.iter(2):
-        print("Field 2.003 is ",record._3)
+    # print(msgParsed.TOT)
+    # for record in msgParsed.iter(2):
+    #     print("Field 2.003 is ",record._3)
 
     # print everything
     print(msgParsed.__str__())
